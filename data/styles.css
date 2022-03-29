@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #6A96C6;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+}
+
+.title{
+    width: 90%;
+    text-align: center;
+    height: 100px;
+    margin: auto;
+    font-size: 30px;
+    background-color: white;
+    border:  10px solid white;
+    border-radius: 20px;
+    align-items: center;
+    color: white;
+    background-color: #066FE2;
+    position: relative;
+    top: 20px;
+}
+
+.title h1{
+   padding-top: 10px;
+   font-weight: bold;
+}
+
+.container{
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    border: 10px solid white;
+    border-radius: 20px;
+    background-color: #066FE2;
+}
+
+.card{
+    display: flex;
+    gap: 40px;
+}
+
+.sub-card{
+    width: 300px;
+    height: 150px;
+    margin-top: 20px;
+    align-items: center;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    border: 10px solid #758290;
+}
+
+.left{
+    margin-left: 90px;
+}
+
+.right{
+    margin-right: 90px;
+}
+
+.card-title{
+    width: fit-content;
+    margin: auto;
+}
+
+
+.icon{
+    margin: 10px;
+}
+
+.flex{
+    display: flex;
+    gap: 10px;
+}
+
+.flex span{
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+}
